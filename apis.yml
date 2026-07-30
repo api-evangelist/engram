@@ -1,22 +1,61 @@
 aid: engram
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/engram.png
 name: Engram
-description: 'Engram is a company surfaced as a portfolio company of kleiner-perkins and added to the
-  API Evangelist network as a stub for enrichment. Sector: ai. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Engram is an early-stage AI company building models that learn from an organization''s
+  unique context and data, with the pitch that they can match or beat frontier models while using
+  only 1%-10% of the tokens ("AI has learned the world. Now it should learn yours."). Positioned as
+  a learned AI memory layer and backed by Kleiner Perkins, Engram is at a pre-product / research
+  stage: as of this enrichment pass the company publishes no public API, SDK, developer portal,
+  documentation, pricing, blog, sign-up, or GitHub organization. This profile captures the
+  company''s public identity only; there is no developer or API surface available to enrich.'
 url: https://raw.githubusercontent.com/api-evangelist/engram/refs/heads/main/apis.yml
 x-type: company
 x-source: kleiner-perkins-portfolio
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-api-provider: false
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
-- Ai
+- AI
+- Machine Learning
+- LLM
+- Model Training
+- Context
+- Memory
+- Fine-Tuning
 apis: []
+common:
+- type: Website
+  url: https://engram.com
+- type: Careers
+  url: https://engram.com/careers
+- type: X
+  url: https://x.com/EngramLab
+- type: LinkedIn
+  url: https://www.linkedin.com/company/engram-lab/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+- FN: Engram
+  email: hello@engram.com
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
